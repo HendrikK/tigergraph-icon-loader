@@ -13,10 +13,6 @@ If you have a folder of icons in 512x512 png format you can copy hem into the fo
 $TIGERGRAPH_USER_HOME/tigergraph/visualization/server/src/public/prod/assets/img/user-uploaded-icons
 ```
 
-# Data Conversion Scripts
-If you don't have the icons in this format there is a set of python libraies in the pillow package that you
-can use to change the icons into the right format.
-
 # Copy Instructions From UNIX Shell
 To do a copy of a folder called $MY_ICON_FOLDER, you can use the following command
 
@@ -24,7 +20,7 @@ To do a copy of a folder called $MY_ICON_FOLDER, you can use the following comma
 $ cp $MY_ICON_FOLDER/*.png $TIGERGRAPH_USER_HOME/tigergraph/visualization/server/src/public/prod/assets/img/user-uploaded-icons
 ```
 
-# Instructions to Convert Icons
+# Steps to Convert Icons into 512x512 png format
 In the src directory you will find a python file called convert-icons.py.
 
 You will also need to make sure the pillow

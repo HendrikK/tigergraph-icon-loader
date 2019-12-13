@@ -27,6 +27,10 @@ You will also need to make sure the pillow
 
 ```$ pip install pillow```
 
-Here is the UNIX Shell command
+The pillow image class is documented [here](https://pillow.readthedocs.io/en/3.0.x/handbook/tutorial.html)
 
-src/convert-icons.py $SRC_FOLDER $DEST_FOLDER
+Here is the UNIX Shell command that will convert the images
+
+```$ python src/convert-icons.py $SRC_FOLDER $DEST_FOLDER```
+
+

@@ -10,14 +10,14 @@ this method is very time consuming and difficult to reproduce consistently on mu
 If you have a folder of icons in 512x512 png format you can copy hem into the following folder:
 
 ```
-$TIGERGRAPH_USER_HOME/tigergraph/visualization/server/src/public/prod/assets/img/user-uploaded-icons
+$TIGERGRAPH_USER_HOME/tigergraph/data/gui/user_icons
 ```
 
 # Copy Instructions From UNIX Shell
 To do a copy of a folder called $MY_ICON_FOLDER, you can use the following command
 
 ```
-$ cp $MY_ICON_FOLDER/*.png $TIGERGRAPH_USER_HOME/tigergraph/visualization/server/src/public/prod/assets/img/user-uploaded-icons
+$ cp $MY_ICON_FOLDER/*.png $TIGERGRAPH_USER_HOME/tigergraph/data/gui/user_icons
 ```
 
 # Steps to Convert Icons into 512x512 png format
